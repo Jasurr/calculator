@@ -52,7 +52,7 @@ public class Services implements Calc {
         return Arrays.stream(Numbers.values())
                 .anyMatch(q -> number.equals(q.name()));
     }
-
+    // Calculate numbers
     public Integer calculate(Integer a, Integer b, Operator operator) throws Exception {
         switch (operator) {
             case PLUS:
