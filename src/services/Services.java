@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.Locale;
 
 public class Services implements Calc {
-    private static String[] ROME = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
-    private static int[] ARAB = {100, 90, 50, 40, 10, 9, 5, 4, 1};
+    private static final String[] ROME = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+    private static final int[] ARAB = {100, 90, 50, 40, 10, 9, 5, 4, 1};
     private StringBuilder romanNumber;
 
     @Override
